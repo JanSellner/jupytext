@@ -27,7 +27,7 @@ Jupytext accepts a few additional options. These options should be added to the 
 Jupytext's contents manager, and the command line interface, can load some configuration options
 from a configuration file.
 
-The configuration file should be either in the local or a parent directory, or in any directory listed in
+The configuration file should be either in the local (i.e. the directory from which JupyterLab was started) or a parent directory, or in any directory listed in
 ```python
 from jupytext.config import global_jupytext_configuration_directories
 list(global_jupytext_configuration_directories())
